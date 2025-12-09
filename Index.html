@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пентестер | Личный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1>Пентестер</h1>
+                <p>Привет, меня зовут Александр, и я специализируюсь на тестировании на проникновение и защите данных.</p>
+            </div>
+            <div class="header-right">
+                <a href="portfolio.html" class="header-link">Портфолио</a>
+                <a href="blog.html" class="header-link">Блог</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#education">Обучение</a></li>
+                <li><a href="#certificates">Сертификаты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-container">
+                <div class="photo-container">
+                    <img src="Photo\photoAlexander.jpg" alt="Александр" class="profile-photo" width="400" height="400">
+                </div>
+                <div class="text-container">
+                    <p>
+                        Я — пентестер с более чем годом опыта в области кибербезопасности. Мои навыки охватывают анализ уязвимостей, тестирование на проникновение и защиту данных.
+                    </p>
+                    <p>
+                        В свободное время я изучаю новые методы атак и защиты, участвую в CTF-соревнованиях и создаю инструменты для автоматизации тестирования.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Проекты</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="Photo/images.jpg" alt="Проект 1">
+                        <div class="slide-content">
+                            <h3>Анализ уязвимостей веб-приложений</h3>
+                            <p>Проведение тестирования на проникновение для крупного сайта Apache2.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Photo/01.jpg" alt="Проект 2">
+                        <div class="slide-content">
+                            <h3>Анализ уязвимостей сервера МИРЭА </h3>
+                            <p>Проведение аудита безопаснои и выявление злоумышленников, которые взломали сервер.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Photo/02.png" alt="Проект 3">
+                        <div class="slide-content">
+                            <h3>Проверка защищённости корпаротивных сетей</h3>
+                            <p>Разработка стратегии защиты сети для финансовой компании.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="prev-btn">&#10094;</button>
+                <button class="next-btn">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Обучение</h2>
+            <div class="education-grid">
+                <div class="card">
+                    <h3>Курс по этическому хакингу</h3>
+                    <p>Углубленное изучение методов тестирования на проникновение.</p>
+                </div>
+                <div class="card">
+                    <h3>Костромской Государственный Университет по Информационной безопасности</h3>
+                    <p>Получение высшего образования в области информационной безопасности.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+        <div class="container">
+            <h2>Сертификаты</h2>
+            <div class="certificates-grid">
+                <div class="card">
+                    <h3>Certified Ethical Hacker (CEH)</h3>
+                    <p>Сертификация по этическому хакингу.</p>
+                </div>
+                <div class="card">
+                    <h3>Создание своего киберполигона на базе Костромского Государственного Университета</h3>
+                    <p>Разработка и внедрение учебного полигона для обучения студентов методам тестирования на проникновение.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Добавь этот код ПЕРЕД секцией "Контакты" -->
+    <section id="crypto">
+        <div class="container">
+            <h2>Мониторинг криптоактивов</h2>
+            <p class="section-subtitle">Активы, наиболее подверженные кибератакам (данные обновляются в реальном времени)</p>
+            <div class="crypto-grid" id="crypto-widget">
+                <!-- Данные загрузятся через JavaScript -->
+                <div class="loading">Загружаем курсы...</div>
+            </div>
+            <p class="api-note">Данные предоставлены CoinGecko API</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Если вам нужен опытный пентестер для вашего проекта, свяжитесь со мной.</p>
+            <a href="mailto:mr.orlov060104@gmail.com" class="button">Написать письмо</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Пентестер. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

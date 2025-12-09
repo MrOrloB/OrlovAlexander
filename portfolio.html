@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Пентестер</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="header-left">
+                <h1>Портфолио</h1>
+                <p>Мои ключевые проекты по тестированию на проникновение</p>
+            </div>
+            <div class="header-right">
+                <a href="index.html" class="header-link">Главная</a>
+                <a href="blog.html" class="header-link">Блог</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html#about">Обо мне</a></li>
+                <li><a href="index.html#projects">Проекты</a></li>
+                <li><a href="index.html#education">Обучение</a></li>
+                <li><a href="index.html#certificates">Сертификаты</a></li>
+                <li><a href="index.html#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Проект 1 -->
+                <div class="portfolio-item">
+                    <h3>Аудит безопасности интернет-банка</h3>
+                    <div class="project-image">
+                        <img src="Photo/TB.jpg" alt="Анализ защищенности API" width="400" height="250">
+                    </div>
+                    <p class="portfolio-date">Январь 2024</p>
+                    <p class="portfolio-description">Полный аудит безопасности веб-приложения интернет-банка с выявлением критических уязвимостей.</p>
+                    <div class="portfolio-tech">
+                        <span>OWASP Top 10</span>
+                        <span>Burp Suite</span>
+                        <span>SQL injection</span>
+                    </div>
+                    <div class="portfolio-results">
+                        <h4>Результаты:</h4>
+                        <ul>
+                            <li>Обнаружено 3 критические уязвимости</li>
+                            <li>5 уязвимостей средней severity</li>
+                            <li>Подготовлен детальный отчет с рекомендациями</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Проект 2 -->
+                <div class="portfolio-item">
+                    <h3>Аудит корпоративной сети</h3>
+                    <div class="project-image">
+                        <img src="Photo/KS.jpg" alt="Анализ защищенности API" width="400" height="250">
+                    </div>
+                    <p class="portfolio-date">Март 2024</p>
+                    <p class="portfolio-description">Тестирование защищенности корпоративной сети финансовой компании.</p>
+                    <div class="portfolio-tech">
+                        <span>Nmap</span>
+                        <span>Metasploit</span>
+                        <span>Wireshark</span>
+                    </div>
+                    <div class="portfolio-results">
+                        <h4>Результаты:</h4>
+                        <ul>
+                            <li>Выявлены небезопасные конфигурации firewall</li>
+                            <li>Обнаружены устаревшие сервисы</li>
+                            <li>Разработана стратегия сегментации сети</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Проект 3 -->
+                <div class="portfolio-item">
+                    <h3>Security assessment мобильного приложения</h3>
+                    <div class="project-image">
+                        <img src="Photo/GS.jpg" alt="Анализ защищенности API" width="400" height="250">
+                    </div>
+                    <p class="portfolio-date">Май 2024</p>
+                    <p class="portfolio-description">Анализ безопасности мобильного приложения для iOS и Android.</p>
+                    <div class="portfolio-tech">
+                        <span>MobSF</span>
+                        <span>Frida</span>
+                        <span>SSL Pinning</span>
+                    </div>
+                    <div class="portfolio-results">
+                        <h4>Результаты:</h4>
+                        <ul>
+                            <li>Обнаружены проблемы с хранением данных</li>
+                            <li>Выявлены уязвимости межпроцессного взаимодействия</li>
+                            <li>Протестирована устойчивость к реверс-инжинирингу</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Проект 4 -->
+                <div class="portfolio-item">
+                    <h3>Тестирование на осведомленность сотрудников</h3>
+                    <div class="project-image">
+                        <img src="Photo/SI.jpg" alt="Анализ защищенности API" width="400" height="250">
+                    </div>
+                    <p class="portfolio-date">Июль 2024</p>
+                    <p class="portfolio-description">Проведение фишинговой кампании и тестирование реакции сотрудников.</p>
+                    <div class="portfolio-tech">
+                        <span>Gophish</span>
+                        <span>Social Engineer Toolkit</span>
+                        <span>OSINT</span>
+                    </div>
+                    <div class="portfolio-results">
+                        <h4>Результаты:</h4>
+                        <ul>
+                            <li>23% сотрудников перешли по фишинговой ссылке</li>
+                            <li>Разработан план обучения кибербезопасности</li>
+                            <li>Внедрена двухфакторная аутентификация</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Проект 5 -->
+                <div class="portfolio-item">
+                    <h3>Анализ защищенности API</h3>
+                    <div class="project-image">
+                        <img src="Photo/API.jpg" alt="Анализ защищенности API" width="400" height="250">
+                    </div>
+                    <p class="portfolio-date">Сентябрь 2024</p>
+                    <p class="portfolio-description">Тестирование REST API микросервисной архитектуры.</p>
+                    <div class="portfolio-tech">
+                        <span>Postman</span>
+                        <span>OWASP API Security</span>
+                        <span>JWT</span>
+                    </div>
+                    <div class="portfolio-results">
+                        <h4>Результаты:</h4>
+                        <ul>
+                            <li>Обнаружены уязвимости аутентификации</li>
+                            <li>Выявлены проблемы с авторизацией endpoints</li>
+                            <li>Найдены утечки данных через API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Пентестер. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
